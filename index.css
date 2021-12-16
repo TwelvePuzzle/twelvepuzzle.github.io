@@ -44,11 +44,7 @@ a {
   font-family: Montserrat, Arial, Helvetica, sans-serif;
   font-weight: 600;
   font-size: 20px;
-  text-decoration: none;
   cursor: pointer;
-  transition: background 250ms ease-in-out, transform 150ms ease;
-  -webkit-appearance: none;
-  -moz-appearance: none;
 }
 
 .long-button:active {
