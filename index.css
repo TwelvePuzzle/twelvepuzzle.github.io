@@ -1,13 +1,13 @@
 body {
   font-family: Montserrat, Arial, Helvetica, sans-serif;
   background-color: #e0e0e0;
-  color: #4b0082;
   text-align: center;
   font-size: larger;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: 900;
+  color: #4b0082;
 }
 
 a {
@@ -32,4 +32,25 @@ a {
 
 .banner {
   width: min(300px, 45%);
+}
+
+.long-button {
+  display: inline-block;
+  border-radius: 20px;
+  padding: 3px 12px;
+  margin: 0;
+  background-color: #4b0082;
+  color: #ffffff;
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background 250ms ease-in-out, transform 150ms ease;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.long-button:active {
+  background-color: #260041;
 }
